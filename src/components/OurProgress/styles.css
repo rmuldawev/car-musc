@@ -1,0 +1,73 @@
+.mainContainer {
+    max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  /* background-color: brown; */
+  padding-top: 100px;
+}
+
+.container1 {
+    flex-direction: row;
+    display: flex;
+/* background-color:bisque; */
+
+}
+.ourProgress {
+    /* background-color: blueviolet; */
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+
+.ourProgressTextTitle {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    font-family: 'ReformaGroteskMediumC';
+}
+
+.ourProgressText {
+    font-family: 'ReformaGroteskMediumC';
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28.8px;
+}
+
+.box {
+    width: 300px;
+    border: 1px solid #898989;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.boxcolumn2 {
+    width: 300px;
+    border: 1px solid #898989;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.prizeNumber {
+    font-family: 'ReformaGroteskDemiC';
+    font-weight: 600;
+    font-size: 35px;
+    color: #DB3138;
+    margin: 25px 0;
+}
+
+.boxtText {
+    font-family: 'ReformaGroteskDemiC';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 10px 25px 20px 25px;
+    /* background-color: #898989; */
+
+
+}

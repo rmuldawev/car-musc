@@ -1,0 +1,120 @@
+.afisha {
+  background-image: url("../../assets/images/car_background.png");
+  height: 120vh;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1220px;
+}
+
+.carMusc {
+  padding-top: 40px;
+}
+
+.route {
+  /* width: ; */
+  display: flex;
+  gap: 40px;
+}
+
+.textNavigation {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28.8px;
+  align-self: center;
+}
+
+.textLogo {
+  font-family: "ReformaGroteskBoldC";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 125%;
+  text-align: center;
+  color: #db3138;
+  margin-top: 150px;
+}
+
+.fourDots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40.93px;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 48px;
+  font-style: normal;
+  align-self: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.rectangle {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.servicesText {
+  position: absolute;
+  margin-left: 70px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 33.6px;
+  text-align: center;
+}
+
+.addressText {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18.2px;
+}
+
+.address {
+  font-weight: 600;
+  color: #db3138;
+  font-size: 20px;
+  line-height: 20.4px;
+}
+.address1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.textContainer {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33.3%;
+}
+
+.phoneContainer {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33.3%;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.addressContainer {
+  border: 1px solid white;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}

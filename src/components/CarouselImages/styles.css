@@ -1,0 +1,32 @@
+.carousel {
+    max-width: 1335px;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: whitesmoke; */
+    display: flex;
+    padding-top: 150px;
+    
+}
+
+.slick-next:before, .slick-prev::before {
+    content: none;
+  }
+
+  .prevIcon {
+    margin-right: 200px;
+  }
+
+ .nextSlickStyle {
+    background-color: transparent;
+
+    border-width: 0;
+    margin: 0 0 0 50px;
+
+
+ }
+
+ .prevSlickStyle {
+    background-color: transparent;
+    border-width: 0;
+    margin: 0 50px 0 0;
+ }
