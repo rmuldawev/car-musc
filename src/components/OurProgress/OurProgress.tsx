@@ -23,9 +23,6 @@ const OurProgress = () => {
         <div
           style={{
             display: "flex",
-            // backgroundColor: "yellow",
-            // flexDirection: "row",
-            // width: "50%",
           }}
         >
           <div>

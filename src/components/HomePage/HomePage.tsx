@@ -3,20 +3,14 @@ import "./styles.css";
 import BurgerIcon from "../../assets/icons/burger";
 import FourDots from "../../assets/icons/fourDots";
 import Rectangle from "../../assets/icons/rectangle";
+import { Link } from "react-router-dom";
+import HeaderNavigation from "../HeaderNavigation/HeaderNavigation";
 
 const HomePage = () => {
   return (
     <div className="afisha">
       <div className="carMusc container">
-        <div className="navigation">
-          <div className="route">
-            <a className="textNavigation">Главная</a>
-            <a className="textNavigation">Оклейка автомобилей</a>
-            <a className="textNavigation">Детейлинг автомобилей</a>
-            <a className="textNavigation">Галерея работ</a>
-          </div>
-          <BurgerIcon />
-        </div>
+        <HeaderNavigation />
         <h1 className="textLogo">CAR MUSC</h1>
         <div className="fourDots">
           <FourDots />

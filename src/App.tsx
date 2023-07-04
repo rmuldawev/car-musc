@@ -1,17 +1,23 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import HomePage from "./components/HomePage/HomePage";
-import OurProgress from "./components/OurProgress/OurProgress";
-import CarouselImages from "./components/CarouselImages/CarouselImages";
+import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import MainScreen from "./screens/MainScreen/MainScreen";
+import PastingScreen from "./screens/PastingScreen/PastingScreen";
+import RegistrationScreen from "./screens/RegistrationScreen/RegistrationScreen";
+import LoginPage from "./screens/LoginPage/LiginPage";
 
 function App() {
   return (
-    <div>
-      <HomePage />
-      <OurProgress />
-      <CarouselImages />
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<MainScreen />} />
+          <Route path="pageTwo" element={<PastingScreen />} />
+          <Route path="RegistrationScreen" element={<RegistrationScreen />} />
+          <Route path="LoginPage" element={<LoginPage />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

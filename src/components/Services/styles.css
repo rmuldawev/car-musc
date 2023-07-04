@@ -1,0 +1,104 @@
+.servicesMainContainer {
+  max-width: 1066px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+}
+
+.ourServices {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ourServivesTextTitle {
+  margin: 50px 0;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.serviceBoxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.twoRectangles {
+  display: flex;
+  gap: 40px;
+  margin: 50px 0;
+  align-items: center;
+}
+
+.redRectangle {
+  background-color: #db3138;
+  padding: 0 35px;
+}
+
+.BlackRectangle {
+  padding: 7px 35px;
+}
+
+.fourBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 10px;
+  border: 1px solid #898989;
+  margin-top: 100px;
+}
+
+.detailsButton {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.detailsText {
+  position: absolute;
+  margin-left: 70px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 33.6px;
+  text-align: center;
+  font-family: "ReformaGroteskDemiC";
+
+}
+
+.rectangleTextTitle {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "ReformaGroteskDemiC";
+}
+
+.plenkaIcon {
+  margin-top: 12px;
+}
+
+.designIcon {
+  margin-top: 11px;
+  margin-bottom: 9px;
+}
+
+.desingText {
+  margin-top: 395px;
+}
+
+.boxesTitle {
+  margin: 20px 0;
+  font-family: "ReformaGroteskDemiC";
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.boxesText {
+  font-family: "ReformaGroteskDemiC";
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+
+}

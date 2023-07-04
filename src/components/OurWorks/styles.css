@@ -1,0 +1,25 @@
+.OurWorksContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 50px;
+}
+
+.galleryImageStyle{
+max-width: 240px;
+max-height: 240px;
+}
+
+.galleryImages {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ourWorksTitle{
+    font-family: 'ReformaGroteskMediumC';
+    font-size: 30px;
+    font-weight: 600;
+}
