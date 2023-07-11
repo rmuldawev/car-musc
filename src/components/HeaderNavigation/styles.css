@@ -1,17 +1,52 @@
 .navigation {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1220px;
-    padding-left: 100px;
-  }
+  display: flex;
+  flex-direction: row;
+  max-width: 1440px;
+  justify-content: center;
+  margin: 0 20px;
+}
 
-  .textNavigation {
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 28.8px;
-    align-self: center;
-    color: white;
-    text-decoration: none;
+.textNavigation {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+.route {
+  display: flex;
+  gap: 40px;
+}
+
+.burgerButton {
+  display: none;
+}
+
+@media (max-width: 1150px) {
+  .route {
+    gap: 20px;
   }
+  .textNavigation {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .route {
+  }
+  .textNavigation {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 750px) {
+  .route {
+    display: none;
+  }
+  .burgerButton {
+    display: block;
+    position: absolute;
+    left: 10px;
+  }
+}

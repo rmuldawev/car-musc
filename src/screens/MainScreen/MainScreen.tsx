@@ -6,9 +6,11 @@ import Advantage from "../../components/Advantage/Advantage";
 import Services from "../../components/Services/Services";
 import OurWorks from "../../components/OurWorks/OurWorks";
 
+import "../MainScreen/styles.css";
+
 const MainScreen = () => {
   return (
-    <div>
+    <div className="mainScreenStyle">
       <HomePage />
       <OurProgress />
       <CarouselImages />

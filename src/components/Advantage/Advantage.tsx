@@ -37,7 +37,7 @@ const Advantage = () => {
   };
   return (
     <div className="anvantageContainer">
-      <div>
+      <div className="advantageTextContainer">
         <div className="materials">
           <MaterialsIcon />
           <p className="materialsText">МАТЕРИАЛЫ ОТ ЛУЧШИХ КОМПАНИЙ</p>
@@ -74,7 +74,7 @@ const Advantage = () => {
       </div>
       <div className="advantageImageContainer">
         <Slider {...settings} className="advantageCarousel">
-          <div style={{ maxWidth: "500px" }}>
+          <div className="imageContainer">
             <img
               className="sliderImageStyle"
               src={require("../../assets/images/BMW.png")}
@@ -82,12 +82,13 @@ const Advantage = () => {
           </div>
         </Slider>
         <div className="prevNextIcons">
-          <PrevImageIcon />
+          <PrevImageIcon className="prevIconImageStyle" />
+
           <p className="prevNextText">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Pellentesque auctor nibh feugiat est. Consectetur lectus.
           </p>
-          <NextImageIcon />
+          <NextImageIcon className="nextIconImageStyle" />
         </div>
       </div>
     </div>

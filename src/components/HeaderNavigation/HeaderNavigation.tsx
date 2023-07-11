@@ -28,13 +28,14 @@ const HeaderNavigation = () => {
         <Link to={"/LoginPage"} className="textNavigation">
           Вход
         </Link>
+        <Link to={"/RegistrationScreen"} className="textNavigation">
+          Регистрация
+        </Link>
         <Link to={"LoginPage"} className="textNavigation" onClick={LogOut}>
           LogOut
         </Link>
       </div>
-      <Link to={"/RegistrationScreen"}>
-        <BurgerIcon />
-      </Link>
+      <BurgerIcon className="burgerButton" />
     </div>
   );
 };

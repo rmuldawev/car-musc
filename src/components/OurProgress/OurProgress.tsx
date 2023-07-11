@@ -20,11 +20,7 @@ const OurProgress = () => {
             pretium, volutpat.{" "}
           </p>
         </div>
-        <div
-          style={{
-            display: "flex",
-          }}
-        >
+        <div className="boxContainers">
           <div>
             <div className="box">
               <p className="prizeNumber">#1</p>
@@ -55,7 +51,7 @@ const OurProgress = () => {
               </p>
             </div>
           </div>
-          <div style={{ marginTop: "50px" }}>
+          <div className="boxContainer2">
             <div className="boxcolumn2">
               <p className="prizeNumber">#4</p>
               <p className="boxtText">

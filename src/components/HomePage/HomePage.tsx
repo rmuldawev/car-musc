@@ -20,7 +20,8 @@ const HomePage = () => {
           urna amet penatibus.
         </p>
         <div className="rectangle">
-          <Rectangle />
+          <div className="redBox" />
+          {/* <Rectangle /> */}
           <p className="servicesText">Наши услуги</p>
         </div>
       </div>
