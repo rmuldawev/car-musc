@@ -7,6 +7,7 @@ import Services from "../../components/Services/Services";
 import OurWorks from "../../components/OurWorks/OurWorks";
 
 import "../MainScreen/styles.css";
+import MenuModal from "../../modals/MenuModal/MenuModal";
 
 const MainScreen = () => {
   return (

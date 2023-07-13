@@ -14,6 +14,7 @@ const LoginPage = () => {
     const auth = getAuth();
     signInWithEmailAndPassword(auth, email, password)
       .then(({ user }) => {
+        console.log("user", user);
         alert("Welcome");
         dispatch(
           setUser({
@@ -22,7 +23,7 @@ const LoginPage = () => {
             token: user.refreshToken,
           })
         );
-        navigate("/");
+        navigate("/Profile");
       })
       .catch(() => alert("Invalid User"));
   };

@@ -36,12 +36,11 @@
   height: 345px;
 }
 
-@media (max-width:600px) {
+@media (max-width: 600px) {
   .nextSlickStyle {
-display: none;
+    display: none;
   }
   .prevSlickStyle {
-   display: none;
+    display: none;
   }
-
 }

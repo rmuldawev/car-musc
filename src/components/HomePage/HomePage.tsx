@@ -21,7 +21,6 @@ const HomePage = () => {
         </p>
         <div className="rectangle">
           <div className="redBox" />
-          {/* <Rectangle /> */}
           <p className="servicesText">Наши услуги</p>
         </div>
       </div>

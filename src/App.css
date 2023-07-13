@@ -15,14 +15,20 @@
 
 .container {
   max-width: 1440px;
-  /* padding: 0 10px; */
-display: flex;
-flex-direction: column;
-background-size: cover;
-overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  overflow-y: hidden;
 }
 
 
+.ReactModal__Content {
+  padding: 0 !important;
+}
+
+.ReactModal__Overlay{
+  background-color:rgba(255, 255, 255, 0.1) !important;
+}
 
 .App-header {
   background-color: #282c34;
