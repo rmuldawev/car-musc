@@ -13,7 +13,6 @@ const HeaderNavigation = () => {
 
   const LogOut = () => {
     dispatch(removeUser());
-    navigate("/LoginPage");
   };
 
   const openModal = () => {

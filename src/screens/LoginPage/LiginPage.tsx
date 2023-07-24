@@ -15,7 +15,6 @@ const LoginPage = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then(({ user }) => {
         console.log("user", user);
-        alert("Welcome");
         dispatch(
           setUser({
             email: user.email,
